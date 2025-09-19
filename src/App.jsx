@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button"
-import MyCard from "./components/Question"
+import QuestionList from "./components/QuestionList"
 
 function App() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
-      <MyCard />
+      <QuestionList />
     </div>
   )
 }
